@@ -6,7 +6,8 @@
 
 body, html {
     height: 100%;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
 }
 
 .container {
@@ -18,9 +19,11 @@ body, html {
 
 .content {
     text-align: center;
+    color: #333;
 }
 
 h1 {
+    color: coral;
     font-size: 3rem;
 }
 
@@ -30,6 +33,16 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
+}
+
+h3 a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: normal;
+}
+
+h3 a:hover {
+    color: inherit;
 }
 
 @media (max-width: 768px) {
