@@ -1,0 +1,14 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styling for the whole website */
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Light gray background for home page */
+    color: #333; /* Default text color */
+}
